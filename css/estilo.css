@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "nunito";
+    src: url("../assets/fonts/Nunito-Light.ttf"); }
+  
+  /*fondo y fuente de toda la pagina*/
+body{
+    background-color: #353535;
+    font-family: "nunito";
+}
+
+.card {
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
+    color: #FFF;
+    width: 90%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 5px 0 100px 0;
+  }
+
+nav {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+/*ul tiene padding top 20px
+header agregar margin-bottom: 20
+px
+;*/
+
+nav ul li {
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 20px 0px 20px;
+	font-size: 22px;
+	list-style-type: none;
+	position:relative;
+}
+
+ul{
+    text-align: end;
+}
+
+a {
+    text-decoration: none; /*sacar subrayado de links*/
+    color: #FFF;
+}
+  
+  #div-01 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 15px;
+    margin-left: 300px;
+    text-align: end;
+  }
+  
+  .sidebar1 {
+    background: rgb(105, 105, 105);
+    color: #FFF;
+    position: fixed;
+    height: 100%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 250px;
+    margin-top: 150px;
+  }
+
+  footer {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 200px;
+    justify-content: center;
+    text-align: center;
+  }
+  

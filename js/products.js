@@ -1,0 +1,50 @@
+const productos = [
+    {
+      nombre: "montaña",
+      precio: 100,
+      categoria: "paisajes",
+      img: "./assets/imagen1.jpg",
+      tamaño: "376x249",
+      id: 1,
+    },
+    {
+      nombre: "atardecer",
+      precio: 120,
+      categoria: "paisajes",
+      img: "./assets/imagen2.jpg",
+      tamaño: "376x249",
+      id: 2,
+    },
+    {
+      nombre: "puente",
+      precio: 150,
+      categoria: "paisajes",
+      img: "./assets/imagen3.jpg",
+      tamaño: "376x249",
+      id: 3,
+    },
+    {
+      nombre: "lago",
+      precio: 120,
+      categoria: "paisajes",
+      img: "./assets/imagen4.jpg",
+      tamaño: "376x249",
+      id: 4,
+    },
+    {
+      nombre: "nieve",
+      precio: 100,
+      categoria: "paisajes",
+      img: "./assets/imagen5.jpg",
+      tamaño: "376x249",
+      id: 5,
+    },
+    {
+      nombre: "noche",
+      precio: 150,
+      categoria: "paisajes",
+      img: "./assets/imagen6.jpg",
+      tamaño: "376x249",
+      id: 6,
+    }
+  ];
