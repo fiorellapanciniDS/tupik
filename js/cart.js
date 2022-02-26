@@ -54,8 +54,20 @@
   const borrarProducto = (event) => {
     let idProducto = Number(event.target.getAttribute("data-id"));
     carrito = carrito.filter((element) => element.id != idProducto);
+    borrarProductoApi(idProducto);
     localStorage.setItem("carrito", JSON.stringify(carrito));
     inyectarHTMLcarrito();
+  };
+
+   function borrarProductoApi(id) {
+    $.ajax({
+      type: 'DELETE',  
+      dataType: "json",
+      url: 'https://jsonplaceholder.typicode.com/posts/1',
+      success: function(data){
+        procesarProductos(data)
+      }
+    });
   };
   
   sidebar.addEventListener("click", (event) => {
